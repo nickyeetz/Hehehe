@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("ahhhhhh")
     }
-
+    @IBAction func touchMe(_ sender: Any) {
+        print("i like it a lot lmao")
+    }
+    
 
 }
 
